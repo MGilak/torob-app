@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  direction: rtl;
+  font-family: "vazir";
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.meno-icon{
+  position: absolute;
+  left: 60px;
+  top: 80px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #333333;
+}

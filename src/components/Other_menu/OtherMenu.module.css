@@ -1,0 +1,48 @@
+.container {
+  background-color: #f9fafb;
+  box-sizing: border-box !important;
+}
+.header {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 16px 24px;
+  box-sizing: border-box !important;
+  font-weight: bold;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.header a {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none;
+}
+.body {
+  columns: 6;
+  column-fill: auto;
+  padding: 0px 38px 14px;
+}
+
+.body .col1 ul {
+  display: flex;
+  flex-direction: column;
+}
+.body .col1 li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+  line-height: 30px;
+}
+.body .col1 ul h5 {
+  color: #333333;
+  width: 180px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.body .col1 ul li {
+  font-size: 13px;
+}
+.header a:hover,
+.body .col1 ul h5:hover,
+.body .col1 ul li a:hover {
+  color: #d73948;
+}

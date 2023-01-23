@@ -1,0 +1,6 @@
+.mobile {
+  background-color: #f2f3f5;
+  padding: 0 26px;
+  height: calc(100vh - 136px);
+  max-height: fit-content;
+}

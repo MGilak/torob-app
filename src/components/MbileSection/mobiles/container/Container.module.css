@@ -1,0 +1,62 @@
+.container_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: #333333;
+}
+.container {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container_item {
+  margin-top: 10px;
+  background-color: #fff;
+  width: calc(20% - 10px);
+  height: 400px;
+  border-radius: 10px;
+  padding: 12px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container_item_name {
+  font-size: 15px;
+  color: #333333;
+  margin-top: 10px;
+}
+.container_item_up {
+  width: 100%;
+}
+.container_item_up img {
+  width: 100%;
+}
+
+.container_item_bottom {
+  /* margin: 20px 0; */
+  /* background-color: antiquewhite; */
+  height: 25%;
+}
+.container_item_price {
+  font-size: 13px;
+  font-weight: 500;
+}
+.container_store {
+  color: #808080;
+  font-size: 15px;
+}
+.container_like {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.container_like svg {
+  font-size: 28px;
+  color: #808080;
+}

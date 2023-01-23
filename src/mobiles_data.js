@@ -1,0 +1,92 @@
+export const data = [
+  {
+    img: "./images/1.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/2.jpg",
+    name: "گوشی سامسونگ A51 | حافظه 32 رم 2 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۲٫۱۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/3.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/4.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/5.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/6.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/3.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/2.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/1.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/2.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/3.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/4.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/5.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/6.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+  {
+    img: "./images/3.jpg",
+    name: "گوشی سامسونگ A13 | حافظه 64 رم 4 گیگابایت ا Samsung Galaxy A13",
+    price: "از ۴٫۲۲۰٫۰۰۰ تومان",
+    store: "در ۱۶۳ فروشگاه",
+  },
+];

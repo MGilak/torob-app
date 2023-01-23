@@ -1,0 +1,9 @@
+.mobiles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f3f5;
+}
+.mobiles_container {
+  width: 90%;
+}

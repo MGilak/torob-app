@@ -1,0 +1,254 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 400px;
+}
+.title {
+  display: flex;
+  padding: 23px 0;
+  cursor: pointer;
+  border-bottom: none;
+  padding: 15px;
+}
+.title p {
+  font-weight: 400;
+  font-size: 17px;
+}
+.title svg {
+  font-size: 22px;
+  margin-left: 15px;
+  transition: all 0.4s ease;
+}
+
+/**** Similar categories ****/
+.categories {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 15px;
+}
+.title.rotate_categories_title {
+  border-bottom: 1px solid #e6e6e6;
+}
+.title.rotate_categories_title svg {
+  transform: rotate(-180deg);
+}
+.categories.show_categories {
+  display: none;
+}
+
+.category_title {
+  display: flex;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.category_title svg {
+  margin-left: 8px;
+}
+.categories_font {
+  color: #333333;
+  font-size: 15px;
+}
+.categories ul {
+  padding: 0 50px;
+  margin-bottom: 15px;
+}
+.categories ul li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+.category_title:hover,
+.categories ul li:hover {
+  color: #d73948;
+}
+
+/**** cost ****/
+.cost {
+  margin-bottom: 20px;
+}
+.cost.show_cost {
+  display: none;
+}
+.range {
+  padding: 0 15px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 18px;
+}
+.range_up {
+  display: flex;
+  justify-content: space-between;
+}
+.range .range_from,
+.range .range_to {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+  font-size: 14px;
+}
+.range .range_from input,
+.range .range_to input {
+  border: none;
+  width: 80%;
+  direction: ltr;
+  outline: none;
+  font-size: 14px;
+  color: #555555;
+}
+.range .range_down {
+  width: 100%;
+  background-color: #e2e2e2;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.range .range_down:hover {
+  background-color: #f2f2f3;
+}
+.range .range_down button {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 10px;
+}
+.title.rotate_cost_title {
+  border-bottom: 1px solid #e6e6e6;
+}
+.title.rotate_cost_title svg {
+  transform: rotate(-180deg);
+}
+.result_search {
+  display: flex;
+  width: 100%;
+  margin: 0 15px;
+}
+.result_search input {
+  border: none;
+  outline: none;
+  background-color: #555555;
+  width: 80%;
+}
+.result_search svg {
+  background-color: #d73948;
+  width: 20%;
+}
+
+/**** search result ****/
+.search_form {
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  overflow: hidden;
+}
+
+.search_form .input {
+  border: none !important;
+  outline: none !important;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+  color: #000;
+  font-size: 15px;
+  padding: 0 5px;
+}
+.search_form .input:focus {
+  border: 2px solid black;
+}
+.search_form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  color: gray;
+  outline: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.search_result {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 15px;
+  padding-bottom: 45px;
+}
+.search_result.show_result {
+  display: none;
+}
+.title.rotate_result_title {
+  border-bottom: 1px solid #e6e6e6;
+}
+.title.rotate_result_title svg {
+  transform: rotate(-180deg);
+}
+/**** inventory ****/
+.inventory {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+.inventory.show_inventory {
+  display: none;
+}
+.title.rotate_show_inventory {
+  border-bottom: 1px solid #e6e6e6;
+}
+.title.rotate_show_inventory svg {
+  transform: rotate(-180deg);
+}
+.inventory svg {
+  font-size: 31px;
+  color: #333333;
+}
+.inventory p {
+  font-size: 17px;
+  color: #333333;
+  font-weight: normal;
+}
+.check_inventory {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.list {
+  padding: 20px 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.list p {
+  color: #d73948;
+  cursor: pointer;
+}
+
+/**** classification ****/
+.classification {
+  padding: 20px 15px;
+}
+.classification_title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.classification ul {
+  margin: 15px;
+  padding-left: 20px;
+}
+.classification ul li {
+  padding: 5px 0;
+  color: #808080;
+  font-size: 15px;
+  cursor: pointer;
+}

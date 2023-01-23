@@ -1,0 +1,21 @@
+.title {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.title span {
+  color: #808080;
+  cursor: pointer;
+  font-size: 13px;
+}
+.title span:hover {
+  color: #d73948;
+}
+.title span a:hover {
+  color: #d73948;
+}
+.title svg {
+  font-size: 8px;
+  color: #808080;
+  margin: 0 8px;
+}

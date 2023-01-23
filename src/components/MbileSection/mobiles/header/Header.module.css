@@ -1,0 +1,50 @@
+.mobies_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+.mobies_header_left_label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #333333;
+  cursor: pointer;
+}
+.mobies_header_left_label svg {
+  margin-right: 10px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+.rotate_label {
+  transform: rotate(180deg);
+}
+.mobies_header_left {
+  position: relative;
+}
+.mobies_header_left_menu {
+  position: absolute;
+  background-color: #fff;
+  padding: 15px;
+  top: 30px;
+}
+.mobies_header_left_menu li {
+  color: #333333;
+  cursor: pointer;
+  font-size: 15px;
+}
+.mobies_header_left_menu li:first-child {
+  color: #d73948;
+}
+.mobies_header_right {
+  color: #808080;
+  font-size: 13px;
+  display: flex;
+}
+.mobies_header_right span {
+  margin: 0 10px;
+}
+.mobies_header_right p:hover {
+  color: #333333;
+  cursor: pointer;
+}

@@ -1,0 +1,113 @@
+/**** brand ****/
+.brand {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0 15px;
+}
+.brand.hide_brand {
+  display: none;
+}
+.title {
+  display: flex;
+  padding: 23px 0;
+  cursor: pointer;
+  border-bottom: none;
+  padding: 15px;
+}
+.title.rotate_brand_title {
+  border-bottom: 1px solid #e6e6e6;
+}
+.title p {
+  font-weight: 400;
+  font-size: 17px;
+}
+.title svg {
+  font-size: 22px;
+  margin-left: 15px;
+  transition: all 0.4s ease;
+}
+.title.rotate_brand_title svg {
+  transform: rotate(-180deg);
+}
+.search_form {
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  outline: none;
+  overflow: hidden;
+}
+
+.search_form .input {
+  border: none !important;
+  outline: none !important;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+  color: #000;
+  font-size: 15px;
+  padding: 0 5px;
+}
+.search_form .input:focus {
+  border: 2px solid black;
+}
+.search_form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  color: gray;
+  outline: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.brand_names {
+  margin-top: 13px;
+  overflow: hidden;
+}
+.brand_names.show_brands {
+  height: 280px;
+}
+.brand_name {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 4px;
+  margin: 3px 0;
+  border-radius: 4px;
+  user-select: none;
+}
+.brand_name:hover {
+  background-color: #ecedef;
+}
+.brand_name:first-child {
+  background-color: #ecedef;
+}
+.brand_name span {
+  color: #333333;
+  font-size: 15px;
+}
+.bottom_title {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  padding: 0 8px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.bottom_title svg {
+  transition: all 0.4s ease;
+}
+.bottom_title.rotate_bottom_title svg {
+  transform: rotate(-180deg);
+}
+.bottom_title h3 {
+  margin-left: 15px;
+  font-size: 17px;
+}
